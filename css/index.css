@@ -1,0 +1,51 @@
+/* nav总设 */
+.navbox {
+    width: 100px;
+    height: 50px;
+}
+
+.connectnav {
+    background-color: rgba(204, 202, 219, 0.5);
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+.connectnav ul li {
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    text-decoration: none;
+    float: left;
+    color: #f5f5f5;
+}
+
+.connectnav ul a:hover li {
+    color: #000;
+}
+
+/* 导航 */
+.nav {
+    top: 50%;
+    margin-top: -25px;
+}
+
+.nav:hover {
+    width: 500px;
+    margin-left: -250px;
+}
+
+/* 视频 */
+.navvoid {
+    top: 50%;
+    margin-top: -76px;
+}
+
+.navvoid:hover {
+    width: 200px;
+    left: 50%;
+    margin-left: -100px;
+}
